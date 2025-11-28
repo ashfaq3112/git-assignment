@@ -1,2 +1,3 @@
 # git-assignment 
-# frontend by kj
+# frontend by Karan 
+# backend by Ashfaq
