@@ -7,7 +7,7 @@ CREATE TABLE shoutouts (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     sender_nickname TEXT, -- Nullable (Optional)
     recipient_name TEXT NOT NULL,
-    message TEXT NOT NULL,
+    message_content TEXT NOT NULL,
     category TEXT NOT NULL,
     created_at TIMESTAMPTZ DEFAULT NOW() NOT NULL,
 
